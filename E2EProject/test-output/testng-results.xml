@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-05T11:00:32 IST" name="Suite" finished-at="2022-04-05T11:01:02 IST" duration-ms="29625">
+    <groups>
+    </groups>
+    <test started-at="2022-04-05T11:00:32 IST" name="SimpleTest" finished-at="2022-04-05T11:00:32 IST" duration-ms="11">
+    </test> <!-- SimpleTest -->
+    <test started-at="2022-04-05T11:00:32 IST" name="HomeTest" finished-at="2022-04-05T11:00:44 IST" duration-ms="12004">
+      <class name="Demo.HomeTest">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Demo.HomeTest@2a39fe6a]" started-at="2022-04-05T11:00:32 IST" name="initilize" finished-at="2022-04-05T11:00:42 IST" duration-ms="10131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="verifyHeader()[pri:0, instance:Demo.HomeTest@2a39fe6a]" started-at="2022-04-05T11:00:42 IST" name="verifyHeader" finished-at="2022-04-05T11:00:44 IST" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+        <test-method signature="verifySectionHeader()[pri:0, instance:Demo.HomeTest@2a39fe6a]" started-at="2022-04-05T11:00:44 IST" name="verifySectionHeader" finished-at="2022-04-05T11:00:44 IST" duration-ms="34" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Featured Courses ] but found [Featured Courses]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Featured Courses ] but found [Featured Courses]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Demo.HomeTest.verifySectionHeader(HomeTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySectionHeader -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Demo.HomeTest@2a39fe6a]" started-at="2022-04-05T11:00:44 IST" name="closeWindow" finished-at="2022-04-05T11:00:44 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Demo.HomeTest -->
+    </test> <!-- HomeTest -->
+    <test started-at="2022-04-05T11:00:32 IST" name="Forget Password" finished-at="2022-04-05T11:00:51 IST" duration-ms="18561">
+      <class name="Demo.ForgetPassTest">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Demo.ForgetPassTest@7db82169]" started-at="2022-04-05T11:00:32 IST" name="initilize" finished-at="2022-04-05T11:00:43 IST" duration-ms="10745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateForgotPassword()[pri:0, instance:Demo.ForgetPassTest@7db82169]" started-at="2022-04-05T11:00:43 IST" name="validateForgotPassword" finished-at="2022-04-05T11:00:50 IST" duration-ms="7379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForgotPassword -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Demo.ForgetPassTest@7db82169]" started-at="2022-04-05T11:00:50 IST" name="closeWindow" finished-at="2022-04-05T11:00:51 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Demo.ForgetPassTest -->
+    </test> <!-- Forget Password -->
+    <test started-at="2022-04-05T11:00:32 IST" name="AuthenticateTest" finished-at="2022-04-05T11:01:02 IST" duration-ms="29625">
+      <class name="Demo.AuthenticationTest">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Demo.AuthenticationTest@6326d182]" started-at="2022-04-05T11:00:32 IST" name="initilize" finished-at="2022-04-05T11:00:43 IST" duration-ms="10659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo.AuthenticationTest@6326d182]" started-at="2022-04-05T11:00:43 IST" name="validateLogin" data-provider="getData" finished-at="2022-04-05T11:00:48 IST" duration-ms="4775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Demo.AuthenticationTest@6326d182]" started-at="2022-04-05T11:00:48 IST" name="closeWindow" finished-at="2022-04-05T11:00:48 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Demo.AuthenticationTest@6326d182]" started-at="2022-04-05T11:00:48 IST" name="initilize" finished-at="2022-04-05T11:00:53 IST" duration-ms="5047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo.AuthenticationTest@6326d182]" started-at="2022-04-05T11:00:53 IST" name="validateLogin" data-provider="getData" finished-at="2022-04-05T11:00:58 IST" duration-ms="4479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superAdmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[superAdmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unrestricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Demo.AuthenticationTest@6326d182]" started-at="2022-04-05T11:00:58 IST" name="closeWindow" finished-at="2022-04-05T11:01:02 IST" duration-ms="4197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Demo.AuthenticationTest -->
+    </test> <!-- AuthenticateTest -->
+  </suite> <!-- Suite -->
+</testng-results>

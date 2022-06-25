@@ -1,0 +1,7 @@
+14:04:10.516 [TestNG-tests-3] INFO  Demo.base - Successfully validated Login
+14:04:11.677 [TestNG-tests-1] INFO  Demo.base - Successfully validated Forget password
+14:04:15.427 [TestNG-tests-3] INFO  Demo.base - Window Closed
+14:04:16.389 [TestNG-tests-1] INFO  Demo.base - Window Closed
+14:04:26.455 [TestNG-tests-3] INFO  Demo.base - Initialized Driver
+14:04:35.786 [TestNG-tests-3] INFO  Demo.base - Unrestricted User
+14:04:35.854 [TestNG-tests-3] INFO  Demo.base - Successfully validated Login

@@ -1,0 +1,9 @@
+16:22:44.799 [main] INFO  Demo.base - Initialized Driver
+16:22:50.548 [main] INFO  Demo.base - Successfully validated Forget password
+16:22:50.676 [main] INFO  Demo.base - Window Closed
+16:22:56.029 [main] INFO  Demo.base - Initialized Driver
+16:22:56.281 [main] INFO  Demo.base - Successfully validated title
+16:22:57.132 [main] INFO  Demo.base - Window Closed
+16:23:01.881 [main] INFO  Demo.base - Initialized Driver
+16:23:06.840 [main] INFO  Demo.base - Restricted User
+16:23:06.925 [main] INFO  Demo.base - Successfully validated Login
